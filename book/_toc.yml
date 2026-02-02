@@ -1,0 +1,31 @@
+# Table of contents
+format: jb-book
+root: 00_introduction
+defaults:
+  numbered: true
+
+parts:
+  - caption: "Part 1: Neural Network Fundamentals"
+    chapters:
+      - file: fundamentals/01_concepts_neural_networks
+      - file: fundamentals/02_concepts_training
+      - file: fundamentals/03_lab_first_neural_network
+      - file: fundamentals/04_lab_regularization
+      - file: fundamentals/05_exercise_imdb_sentiment
+
+  - caption: "Part 2: Computer Vision"
+    chapters:
+      - file: computer_vision/06_lab_image_basics_pillow
+      - file: computer_vision/07_lab_image_processing_opencv
+      - file: computer_vision/08_concepts_convolution
+      - file: computer_vision/09_lab_convolutional_networks
+      - file: computer_vision/10_lab_cnn_visualization
+      - file: computer_vision/11_lab_object_detection_yolo
+      - file: computer_vision/12_lab_object_tracking
+      - file: computer_vision/13_exercise_cats_vs_dogs
+
+  - caption: "Appendix"
+    numbered: false
+    chapters:
+      - file: appendix/A1_keras_api_reference
+      - file: appendix/A2_hyperparameter_tuning

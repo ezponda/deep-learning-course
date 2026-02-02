@@ -78,6 +78,19 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Jupyter Book build output
+book/_build/
+
+# Claude Code
+.claude/
+
+# Large files in extras (datasets, models)
+extras/*.zip
+extras/*.tar.gz
+extras/*.h5
+extras/*.pkl
+extras/*.csv
+
 # IPython
 profile_default/
 ipython_config.py
