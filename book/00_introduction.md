@@ -21,6 +21,52 @@ This course teaches you to build and train neural networks using Keras and Tenso
 
 ---
 
+## Learning Path
+
+```
+START HERE
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                 PART 1: FUNDAMENTALS                            │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  Concepts                          Labs                         │
+│  ────────                          ────                         │
+│  ① Neural Networks  ─────────────▶ ③ First Neural Network      │
+│  ② Training & Regularization ────▶ ④ Regularization Lab        │
+│  ②b Optimizers (NEW!)              ⑤ Exercise: IMDB Sentiment  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                 PART 2: COMPUTER VISION                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  Tools                             Deep Learning                │
+│  ─────                             ─────────────                │
+│  ⑥ Image Basics (Pillow)           ⑧ Concepts: Convolution     │
+│  ⑦ Image Processing (OpenCV)  ───▶ ⑨ CNN Lab                   │
+│                                    ⑩ CNN Visualization         │
+│                                    ⑪ Object Detection (YOLO)   │
+│                                    ⑫ Object Tracking           │
+│                                    ⑬ Exercise: Cats vs Dogs    │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                      APPENDIX (Reference)                       │
+├─────────────────────────────────────────────────────────────────┤
+│  A1. Keras API Reference                                        │
+│  A2. Hyperparameter Tuning                                      │
+│  A3. Model Evaluation & Debugging (NEW!)                        │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## What You'll Build
 
 ```
@@ -33,7 +79,7 @@ PART 1: NEURAL NETWORK FUNDAMENTALS
   └─────────────┘      └─────────────┘      └─────────────┘
         x                   σ(Wx+b)               ŷ
 
-  You'll understand: neurons, activations, loss, backpropagation
+  You'll understand: neurons, activations, loss, backpropagation, optimizers
 
 
 PART 2: COMPUTER VISION
@@ -60,6 +106,7 @@ PART 2: COMPUTER VISION
 |---------|------|-------------------|
 | Concepts: Neural Networks | Theory | Neurons, activations, loss functions |
 | Concepts: Training | Theory | Overfitting, regularization, hyperparameters |
+| **Concepts: Optimizers** | Theory | Adam, SGD, learning rate schedules |
 | Lab: First Neural Network | Practice | Build and train your first model |
 | Lab: Regularization | Practice | Dropout, early stopping, batch norm |
 | Exercise: IMDB Sentiment | Challenge | Binary text classification |
@@ -68,14 +115,22 @@ PART 2: COMPUTER VISION
 
 | Chapter | Type | What you'll learn |
 |---------|------|-------------------|
-| Concepts: Convolution | Theory | Kernels, feature maps, pooling |
 | Lab: Image Basics (Pillow) | Practice | Load and transform images |
 | Lab: Image Processing (OpenCV) | Practice | Filtering, thresholding, histograms |
+| Concepts: Convolution | Theory | Kernels, feature maps, pooling |
 | Lab: CNNs | Practice | Build convolutional networks |
-| Lab: Transfer Learning | Practice | Use pretrained models |
 | Lab: CNN Visualization | Practice | Understand what CNNs see |
 | Lab: Object Detection | Practice | YOLO with Ultralytics |
+| Lab: Object Tracking | Practice | Track objects across video frames |
 | Exercise: Cats vs Dogs | Challenge | Image classification |
+
+### Appendix (Reference)
+
+| Chapter | Content |
+|---------|---------|
+| Keras API Reference | Layers, activations, losses, metrics |
+| Hyperparameter Tuning | Keras Tuner, search strategies |
+| **Model Evaluation & Debugging** | Confusion matrices, precision/recall, troubleshooting |
 
 ---
 
@@ -94,9 +149,13 @@ PART 2: COMPUTER VISION
 1. **Read the Concept notebooks first** — understand the theory
 2. **Run the Lab notebooks in Colab** — get hands-on practice
 3. **Try the Exercises** — test your understanding
-4. **Use the Appendix** — quick reference for APIs and formulas
+4. **Use the Appendix** — quick reference for APIs and debugging
 
 Each notebook has a **"Open in Colab"** badge. Click it to run the code without any local setup.
+
+```{tip}
+When you're stuck, check the **Model Evaluation & Debugging** appendix for common problems and solutions.
+```
 
 ---
 

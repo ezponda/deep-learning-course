@@ -9,6 +9,7 @@ parts:
     chapters:
       - file: fundamentals/01_concepts_neural_networks
       - file: fundamentals/02_concepts_training
+      - file: fundamentals/02b_concepts_optimizers
       - file: fundamentals/03_lab_first_neural_network
       - file: fundamentals/04_lab_regularization
       - file: fundamentals/05_exercise_imdb_sentiment
@@ -29,3 +30,4 @@ parts:
     chapters:
       - file: appendix/A1_keras_api_reference
       - file: appendix/A2_hyperparameter_tuning
+      - file: appendix/A3_model_evaluation
