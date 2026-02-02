@@ -1,5 +1,5 @@
 # Jupyter Book
-jupyter-book>=1.0.0
+jupyter-book>=1.0.0,<2.0.0
 
 # Deep Learning
 tensorflow>=2.15.0
